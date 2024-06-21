@@ -1,0 +1,28 @@
+.card-list-container {
+  position: relative;
+  padding: 20px;
+  background-color: #f9f9f9;
+  
+}
+
+
+.top-button:hover {
+  transform: scale(1.05);
+  color: rgb(238, 241, 13);
+  background-color: rgb(20, 190, 20);
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  gap: 15px;
+  margin-top: 60px; /* Increase space between button and cards */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    gap: 5px;
+  }
+}

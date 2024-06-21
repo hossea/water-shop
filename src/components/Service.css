@@ -1,0 +1,253 @@
+/* src/components/Service.css */
+
+.service-container {
+  padding: 20px;
+}
+
+.service-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-header h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: darkgray;
+}
+
+.underline-2,
+.underline-3 {
+  width: 80px;
+  height: 4px;
+  background-color: #1f9138;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin: 20px;
+}
+
+.grid-item-1 {
+  flex: 0 0 calc(40% - 10px);
+  background-color: #1bad5d;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+  height: 60vh;
+  width: 60vh;
+}
+
+.grid-item {
+  flex: 0 0 calc(47% - 10px);
+  background-color: #1bad5d;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.grid-item h2 {
+  margin: 10px 0;
+  margin-top: 15px;
+}
+
+.grid-item p {
+  font-size: 16px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 76px;
+  margin-bottom: 10px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image-container {
+  flex: 0 0 50%;
+  margin-top: 50px;
+}
+
+.image-container img {
+  height: 97vh;
+  width: 710px;
+  object-fit: cover;
+}
+
+.text-container {
+  flex: 0 0 45%;
+  padding: 0 20px;
+  margin-top: 60px;
+}
+
+.underline-4 {
+  width: 80px;
+  height: 4px;
+  background-color: #1f9138;
+  margin-top: 20px;
+}
+
+.text-container h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  color: rgb(131, 129, 129);
+}
+
+.text-container p {
+  font-size: 24px;
+  line-height: 1.2;
+  color: darkgray;
+}
+
+.about-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 2px;
+  background-color: rgb(241, 241, 241);
+}
+
+.about-us {
+  margin-top: 40px;
+}
+
+.about-us h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: dimgray;
+}
+
+.about-us p {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: dimgray;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1024px) {
+  .grid-item-1,
+  .grid-item {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-item-1,
+  .grid-item {
+    flex: 0 0 100%;
+  }
+  .container-2 {
+    flex-direction: column;
+  }
+  .image-container {
+    flex: 0 0 100%;
+    margin-top: 20px;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .text-container {
+    flex: 0 0 100%;
+    margin-top: 20px;
+  }
+  .text-container h2 {
+    font-size: 18px;
+  }
+  .text-container p {
+    font-size: 16px;
+  }
+  .service-container {
+    padding: 10px;
+  }
+  
+  .service-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .service-header h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: darkgray;
+  }
+  
+  .underline-2,
+  .underline-3 {
+    width: 40px;
+    height: 2px;
+    background-color: #1f9138;
+    margin: 10px auto;
+    margin-top: 20px;
+  }
+  
+  .grid-container {
+    
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  
+  .grid-item-1 {
+    flex: 0 0 calc(20% - 10px);
+    background-color: #1bad5d;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    height: 80vh;
+    width: 30vh;
+  }
+  
+  .grid-item {
+    flex: 0 0 calc(20% - 10px);
+    background-color: #1bad5d;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  
+  .grid-item h2 {
+    margin: 2px;
+    margin-top: 5px;
+  }
+  .grid-item-1 h2 {
+    margin: 2px;
+    margin-top: 5px;
+  }
+  
+  .grid-item p {
+    font-size: 12px;
+  }
+  .grid-item-1 p {
+    font-size: 12px;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,135 @@
+.card-list-container-1 {
+    position: relative;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .top-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 190, 20);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 35px;
+  }
+  
+  .top-button:hover {
+    transform: scale(1.05);
+    color: rgb(238, 241, 13);
+    background-color: rgb(20, 190, 20);
+  }
+  
+  .filter-buttons {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    background-color: white;
+    color: rgb(20, 190, 20);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .filter-button:hover {
+    background-color: rgb(20, 190, 20);
+    color: rgb(218, 240, 26);
+  }
+  
+  .results-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .sort-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .sort-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .sort-dropdown svg {
+    font-size: 14px;
+  }
+  
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-number {
+    background-color: white;
+    color: rgb(20, 190, 20);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .page-number:hover {
+    background-color: rgb(20, 190, 20);
+    color: white;
+  }
+  .paragraph{
+    font-size: 18px;
+    margin: 30px;
+    color: #818181;
+
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .card-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .filter-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter-button {
+      margin-bottom: 10px;
+      width: 80%;
+    }
+  
+    .results-info {
+      flex-direction: column;
+      align-items: center;
+    }
+    .paragraph{
+      font-size: 14px;
+      margin: 10px;
+  }
+}
+  

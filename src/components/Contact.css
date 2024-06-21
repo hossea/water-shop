@@ -1,0 +1,131 @@
+.contact-form-container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding:20px;
+    border-radius: 5px;
+  }
+  .header-5{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: darkgray;
+    
+  }
+  .underline-7 {
+    width: 80px;
+    height: 4px;
+    background-color: #1f9138;
+    margin: 10px auto;
+   
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #afacac;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .submit-btn {
+    background-color: #1f9138;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #156a23;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Mobile Menu Styles */
+@media (max-width: 768px){
+    .contact-form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding:10px;
+    border-radius: 5px;
+    }
+    .header-5{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        color: darkgray;      
+      }
+      .underline-7 {
+        width: 60px;
+        height: 2px;
+        background-color: #1f9138;
+        margin: 10px auto;
+      }
+    
+    .form-group {
+      margin-bottom: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+      color: #afacac;
+    }
+    
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+    
+    .submit-btn {
+      background-color: #1f9138;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 0px 10px;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    
+    .submit-btn:hover {
+      background-color: #156a23;
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+    }
+}

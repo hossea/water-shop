@@ -1,0 +1,19 @@
+.shop-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    color: black;
+    padding: 15px ;
+    border-bottom: 2px solid #979393;  /* Border below the shop bar */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /* Mobile Styles */
+@media (max-width: 768px) {
+  .shop-bar {
+    padding: 5px; 
+    font-size: 16px; 
+    border-bottom: 1px solid #979393;
+  }
+}
